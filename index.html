@@ -8,57 +8,56 @@
 </head>
 <body>
     <header>
-        <h1><a href="index.html" class="judul_a">My Music Review</a></h1>
+        <h1 ><a href="index.html">My Music Review</a></h1>
+        <nav class="navbar">
+         <div class="nav-links">
+             <a href="#beranda">Beranda</a>
+             <a href="#musik">Musik</a>
+             <a href="about.html">About</a>
+            </div>
+        </nav>
     </header>
-    <nav>
-        <ul class="navigasi">
-            <li class="menu"><a href="#" class="menu_a">Home</a></li>
-            <li class="menu"><a href="#" class="menu_a">About</a></li>
-        </ul>
-    </nav>
+    <section class="landing" id="beranda">
+        <h1>Selamat Datang di My Music Review</h1>
+        <p>
+          Musik sudah menjadi separuh dari kita semua. Disini, kami berbagi ulasan musik, rekomendasi lagu, dan cerita tentang bagaimana musik dapat menginspirasi hidup sehari-hari.
+        </p>
+        <div class="tombol">
+            <a href="#musik">Mulai</a>
+        </div>
+    </section>
+      <hr>
     <main>
-        <div class="container_body">
-            <div class="card-paragraf">
-                <h3 class="judul">Kata Sambutan</h3>
-                <p class="sambutan">Kami membuat My Music Review sebagai tempat untuk mengekspresikan kecintaan kami pada musik. Di website ini, kami menulis ulasan tentang lagu dan album favorit, membagikan pendapat pribadi, serta merekomendasikan musik yang menurut kami layak didengar. Ini adalah ruang untuk berbagi rasa dan suara.</p>
+        <div class="container" id="musik">
+            <h2 hre>Daftar Lagu</h2>
+            <div class="card">
+                <a href="review1.html">
+                    <div class="card-content">
+                        <img src="images/garam_madu.jpg" alt="" srcset="">
+                        <p class="judul">Garam Dan Madu</p>
+                        <p class="deskripsi"> Tenxi, Naykilla</p>
+                    </div>
+                </a>
+                <a href="review2.html">
+                    <div class="card-content">
+                        <img src="images/RadioHead.jpg" alt="" srcset="">
+                        <p class="judul">Let Down</p>
+                        <p class="deskripsi">RadioHead</p>
+                    </div>
+                </a>
+                <a href="review3.html">
+                    <div class="card-content">
+                        <img src="images/BillieElise.jpg" alt="" srcset="">
+                        <p class="judul">Wild Flower</p>
+                        <p class="deskripsi">Billie Eilish</p>
+                    </div>
+                </a>
             </div>
         </div>
-        <div class="content">
-            <table>
-                <tr>
-                    <td>
-                        <div class="jarak-card">
-                            <div class="card">
-                                <img src="images/garam_madu.jpg" alt="" class="gambar_lagu" srcset="">
-                                <p class="judul_lagu">Garam Dan Madu</p>
-                                <p class="deskripsi_lagu">Garam dan madu Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta placeat adipisci, deleniti aperiam architecto maiores optio illo! Neque ipsam iusto ipsum delectus quae optio perferendis assumenda suscipit. Omnis, voluptatibus.</p>
-                                <button class="button_lagu"><a href="#">Selengkapnya</a></button>
-                            </div>
-                        </div>  
-                    </td>
-                    <td>
-                        <div class="jarak-card">
-                            <div class="card">
-                                <img src="images/garam_madu.jpg" alt="" class="gambar_lagu" srcset="">
-                                <p class="judul_lagu">Garam Dan Madu</p>
-                                <p class="deskripsi_lagu">Garam dan madu Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta placeat adipisci, deleniti aperiam architecto maiores optio illo! Neque ipsam iusto ipsum delectus quae optio perferendis assumenda suscipit. Omnis, voluptatibus.</p>
-                                <button class="button_lagu"><a href="#">Selengkapnya</a></button>
-                            </div>
-                        </div>  
-                    </td>
-                    <td>
-                        <div class="jarak-card">
-                            <div class="card">
-                                <img src="images/garam_madu.jpg" alt="" class="gambar_lagu" srcset="">
-                                <p class="judul_lagu">Garam Dan Madu</p>
-                                <p class="deskripsi_lagu">Garam dan madu Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta placeat adipisci, deleniti aperiam architecto maiores optio illo! Neque ipsam iusto ipsum delectus quae optio perferendis assumenda suscipit. Omnis, voluptatibus.</p>
-                                <button class="button_lagu"><a href="#">Selengkapnya</a></button>
-                            </div>
-                        </div>  
-                    </td>
-                </tr>
-            </table>      
-        </div>
+        <hr>
     </main>
+    <footer>
+        <p>&copy; Web Front End Mikroskill</p>
+    </footer>
 </body>
 </html>

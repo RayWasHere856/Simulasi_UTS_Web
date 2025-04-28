@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f1;
+  }
+header a{
+    color: white;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+header h1{
+    text-align: center;
+    background-color: #2e7d32;
+    color:white;
+    margin-bottom: 0px;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #2e7d32;
+    padding: 1rem 2rem;
+}
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover {
+    background-color: #a5d6a7;
+    color: black;
+    padding: 8px;
+}
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    min-height: 100vh;
+    background-color: #e8f5e9;
+} 
+.about-card {
+    background-color: #2e7d32;
+    color: #ffffff;
+    max-width: 700px;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+} 
+.about-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+.about-card h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 0.5rem;
+}  
+.about-card p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}  

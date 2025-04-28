@@ -1,97 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-body{
-    font-family: "Rubik", sans-serif;
+body {
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header a{
+    color: white;
 }
 header{
-    background-color: #2D336B;
-    padding: 5px;
-    color: white;
-    font-size: 20px;
+    position: fixed;
+    width: 100%;
 }
-.judul_a{
-    text-decoration: none;
+header h1{
+    text-align: center;
+    background-color: #2e7d32;
     color:white;
+    margin-bottom: 0px;
+    margin: 0;
 }
-nav{
-    background-color: #7886C7;
-    padding: 3px;
-}
-.menu_a{
+a{
     text-decoration: none;
-    color: white;
 }
-.navigasi{
+.navbar {
     display: flex;
-    text-align: center;
-    justify-content:center ;
-    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #2e7d32;
+    padding: 1rem 2rem;
 }
-.menu a:hover{
-    background-color: white;
-    color: black;
-    padding: 10px;
-}
-.menu{
+.logo {
     color: white;
-    margin-right: 12px;
-    display: inline-block;
-}
-header{
-    text-align: center;
-}
-.container_body{
-    text-align: center;
-    padding: 75px 0 150px;
-    background: #2A7B9B;
-    background: linear-gradient(170deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 39%, rgba(237, 221, 83, 1) 100%);
-}
-.card-paragraf{
-    box-sizing:border-box;
-    box-shadow: 6px 7px 16px 0px rgba(0,0,0,0.75);
-    height: 200px;
-    background-color: white;
-    border: 2px solid white;
-    margin-right: 200px;
-    margin-left: 200px;
-}
-.judul{
-    text-decoration: underline 2px;
-}
-.sambutan{
-    font-size: 16px;
-}
-.jarak-card{
-    margin-top: 18px;
-    margin-left: 20px;
-}
-.card{
-    box-sizing: border-box;
-    border: 1px solid;
-    width: 300px;
-}
-.gambar_lagu{
-    padding-top: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-    width: 295px;
-    height: 240px;
-}
-.judul_lagu{
-    font-size: 18px;
-    text-align: center;
+    font-size: 1.5rem;
     font-weight: bold;
 }
-.deskripsi_lagu{
-    font-size: 15px;
-    text-align: justify;
-    padding-left: 2px;
-    padding-right: 2px;
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    transition: color 0.3s ease;
 }
-table{
-margin: auto;
+.nav-links a:hover {
+    background-color: #a5d6a7;
+    color: black;
+    padding: 8px;
 }
-.button_lagu{
-margin-left: 95px;
+.landing {
+    padding: 10rem 5rem;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+.landing h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2e7d32;
+}
+.landing p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.tombol{
+    margin-top: 18px;
+}
+.landing a{
+    text-decoration: none;
+    border: 1px solid #2e7d32;
+    color: #2e7d32;
+    padding: 10px;
+    border-radius: 8px;
+}
+.landing a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #388e3c;
+}
+main h1{
+    margin-left:  9rem;
+}
+hr{
+    width: 80%;
+}
+main{
+    margin-top: -20px;
+    background-color: #FAF6F5;
+}
+.container{
+    padding-top: 12px;
+}
+.container h2{
+    margin-left: 165px;
+    color: #388e3c;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card-content{
+    justify-content: space-between;
+    margin: 30px;
+    width: 250px;
+}
+.card-content img{
+    width: 250px;
+    height: 230px;
+    
+}
+.judul{
+    color: #2e7d32;
+    font-weight: bold;
+    text-align: center;
+}
+.deskripsi{
+    text-align: center;
+    color: black;
+}
+.card a:hover{
+    border: 1px solid #cacaca;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #F9F5F4;
+}
+footer{
+    text-align: center;
 }
